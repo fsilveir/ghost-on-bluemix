@@ -1,5 +1,7 @@
 # [Ghost](https://github.com/TryGhost/Ghost/) on [IBM Bluemix](https://www.bluemix.net)
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/ibm-cds-labs/ghost-on-bluemix.svg)](https://greenkeeper.io/)
+
 Ghost is a very popular blogging platform, it's built by [Ghost Foundation](https://ghost.org/) on Node.js and a selection of SQL solutions.
 
 ## Deploying to [IBM Bluemix](https://www.bluemix.net)
