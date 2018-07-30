@@ -1,3 +1,17 @@
+# RTE 2018
+
+This repository is the base for the RTE 2018 agenda. We have used along with the following customizations:
+
+- **Ghost Theme**: [Bleak](https://github.com/zutrinken/bleak) 
+
+The page will be hosted at the following during the event:
+
+- https://rte2018.mybluemix.net
+
+Follow the instructions from the original project right below in order to deploy it on IBM Cloud/Bluemix.
+
+<hr>
+
 # [Ghost](https://github.com/TryGhost/Ghost/) on [IBM Bluemix](https://www.bluemix.net)
 
 Ghost is a very popular blogging platform, it's built by [Ghost Foundation](https://ghost.org/) on Node.js and a selection of SQL solutions.
