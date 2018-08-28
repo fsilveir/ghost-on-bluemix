@@ -1,14 +1,10 @@
 # RTE 2018
 
-This repository is the base for the RTE 2018 agenda. We have used along with the following customizations:
+This repository is the base for the **Regional Technical Exchange 2018** website. We've used [Ghost CMS](https://github.com/TryGhost/Ghost/) along with [Bleak](https://github.com/zutrinken/bleak) theme: 
 
-- **Ghost Theme**: [Bleak](https://github.com/zutrinken/bleak) 
-
-The page will be hosted at the following during the event:
+The website is hosted on **IBM Cloud** at the following link:
 
 - https://rte2018.mybluemix.net
-
-Follow the instructions from the original project right below in order to deploy it on IBM Cloud/Bluemix.
 
 <hr>
 
@@ -22,7 +18,7 @@ Ghost is a very popular blogging platform, it's built by [Ghost Foundation](http
 
 ### The easy way
 The easiest way to deploy this app to [IBM Bluemix](https://www.bluemix.net) using [Compose](https://github.com/compose) for MySQL is to deploy via the button below.
-[![Deploy to Bluemix](https://deployment-tracker.mybluemix.net/stats/abefe890d326502f6d7382fb2a7fb381/button.svg)](https://bluemix.net/deploy?repository=https://github.com/ibm-cds-labs/ghost-on-bluemix.git)
+[![Deploy to Bluemix](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy?repository=https://github.com/ibm-cds-labs/ghost-on-bluemix.git)
 
 ### Manual installation
 
@@ -30,11 +26,11 @@ To manually install this app to [IBM Bluemix](https://www.bluemix.net) via the c
 
 Once you have these tools, you will need to assign a [IBM Bluemix](https://www.bluemix.net) API to the tool. The command is:
 
-`cf api <api url>`
+`ibmcloud cf api <api url>`
 
 The available API URLs currently are `https://api.ng.bluemix.net` (US), `https://api.eu-gb.bluemix.net` (UK) and `https://api.au-syd.bluemix.net` (AUS). Once you have assigned an API endpoint you will need to login via
 
-`cf login`
+`ibmcloud cf login`
 
 Once that's done we can actually deploy the app. First you will need to grab your own copy.
 
@@ -45,11 +41,11 @@ cd ghost-on-bluemix
 
 You will also need to create the instance of [Compose](https://github.com/compose) for MySQL using the command:
 
-`cf create-service compose-for-mysql Standard GhostDatabase`
+`ibmcloud cf create-service compose-for-mysql Standard GhostDatabase`
 
 Once the instance is created all you need to do is deploy the code to [IBM Bluemix](https://www.bluemix.net) with the command:
 
-`cf push`
+`ibmcloud cf push`
 
 Now you have a working version of [Ghost](https://github.com/TryGhost/Ghost/) running on [IBM Bluemix](https://www.bluemix.net).
 
