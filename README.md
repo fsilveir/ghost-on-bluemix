@@ -2,10 +2,22 @@
 
 This repository is the base for the **Regional Technical Exchange 2018** website. We've used [Ghost CMS](https://github.com/TryGhost/Ghost/) along with [Bleak](https://github.com/zutrinken/bleak) theme: 
 
-The website is hosted on **IBM Cloud** at the following link:
+The website was hosted on **IBM Cloud** at the link below:
 
 - https://rte2018.mybluemix.net
 
+After the end of RTE 2018 we've disabled the site, but you can still take a quick look on screenshots from the main pages right below for reference, or download Ghost content's export [Json file](data/regional-technical-exchange.ghost.2018-10-10.json):
+
+<table>
+<tbody>
+<tr>
+<td><img src="docs/rte-front-page.png" width="300" height="200"></td>
+<td><img src="docs/rte-team-01.png" width="300" height="200"></td>
+<td><img src="docs/rte-sp-01.png" width="300" height="200"></td>
+<td><img src="docs/rte-sp-02.png" width="300" height="200"></td>
+</tr>
+</tbody>
+</table>
 <hr>
 
 # [Ghost](https://github.com/TryGhost/Ghost/) on [IBM Bluemix](https://www.bluemix.net)
